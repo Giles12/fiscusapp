@@ -135,36 +135,6 @@ class BudgetPage extends StatelessWidget {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.black),
-            label: 'Accounts',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.bar_chart, color: Colors.black),
-            label: 'Reports',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.camera_alt_outlined, color: Colors.black),
-            label: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.qr_code, color: Colors.black),
-            label: 'Stocks',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.settings, color: Colors.black),
-            label: 'Settings',
-          ),
-        ],
-        currentIndex: 1, // Set the current selected index to 'Reports'
-        selectedItemColor: Colors.blue, // Change this to your preferred color
-        unselectedItemColor:
-            Colors.black, // Change this to your preferred color
-        showSelectedLabels: true,
-        showUnselectedLabels: true,
-      ),
     );
   }
 }
